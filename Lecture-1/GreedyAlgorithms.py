@@ -29,7 +29,7 @@ class Food(object):
       return self.name + ': <' + str(self.value) / + ', ' + str(self.calories) + '>'
 
 # To build the menu we can utilize this simple code:
-def buildMenus(names, values, calories):
+def buildMenu(names, values, calories):
   """names, values calories lists of same length.
      name a list of strings
      values and calories lists of numbers
@@ -93,9 +93,20 @@ f2 = lambda x, y: x + y #Assigns variable f2 to the given lamda function
 f2(2, 3) #Calls the lambda function above with 2 as x and 3 as y
 f2("reday", " zarra") #Works with adding strings as well
 
-#Even MORE complex lambda function
+# Even MORE complex lambda function
 f3 = lambda x, y: "factor" if (x % y == 0) else "not factor" #If-else expression
 f3(4, 2) #Returns factor because 2 is a factor of 4
 f3(4, 3) #Returns not a factor
 
-#DON'T USE LAMBDA FUNCTIONS!!! Use def instead because lambdas can become complex
+# DON'T USE LAMBDA FUNCTIONS!!! Use def instead because lambdas can become complex
+# Using greedy with variables assigned:
+names = ["wine", "beer", "pizza", "burger", "fries", "cola", "apple", 
+         "donut", "cake"]
+values = [89, 95, 100, 90, 79, 50, 10]
+calories = [123, 154, 258, 354, 365, 150, 95, 195]
+foods = buildMenu(names, values, calories)
+testGreedys(foods, 750)
+
+#Why does Greedy algorithms return different answers?
+#            A sequence of locally "optimal" choices don't always return the
+#            universally correct solution. 
