@@ -4,12 +4,12 @@
 
 """"
 item        $	  kg	$/kg
-clock      175	10	17.5
-picture    90	  9	  10
+clock	     175	10	17.5
+picture	   90	  9	  10
 radio	     20	  4	  5
 vase	     50	  2	  25
 book	     10	  1	  10
-computer   200	20	10
+computer	 200	20	10
 """
 
 # For this problem, assume that the maximum weight the burglar can carry is 20.
