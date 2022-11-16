@@ -29,7 +29,11 @@ class Food(object):
       return self.name + ': <' + str(self.value) / + ', ' + str(self.calories) + '>'
 
 # To build the menu we can utilize this simple code:
+<<<<<<< HEAD
 def buildMenu(names, values, calories):
+=======
+def buildMenus(names, values, calories):
+>>>>>>> 847c3acddec10589b7c787649eec503a82953c9b
   """names, values calories lists of same length.
      name a list of strings
      values and calories lists of numbers
@@ -93,11 +97,16 @@ f2 = lambda x, y: x + y #Assigns variable f2 to the given lamda function
 f2(2, 3) #Calls the lambda function above with 2 as x and 3 as y
 f2("reday", " zarra") #Works with adding strings as well
 
+<<<<<<< HEAD
 # Even MORE complex lambda function
+=======
+#Even MORE complex lambda function
+>>>>>>> 847c3acddec10589b7c787649eec503a82953c9b
 f3 = lambda x, y: "factor" if (x % y == 0) else "not factor" #If-else expression
 f3(4, 2) #Returns factor because 2 is a factor of 4
 f3(4, 3) #Returns not a factor
 
+<<<<<<< HEAD
 # DON'T USE LAMBDA FUNCTIONS!!! Use def instead because lambdas can become complex
 # Using greedy with variables assigned:
 names = ["wine", "beer", "pizza", "burger", "fries", "cola", "apple", 
@@ -110,3 +119,6 @@ testGreedys(foods, 750)
 #Why does Greedy algorithms return different answers?
 #            A sequence of locally "optimal" choices don't always return the
 #            universally correct solution. 
+=======
+#DON'T USE LAMBDA FUNCTIONS!!! Use def instead because lambdas can become complex
+>>>>>>> 847c3acddec10589b7c787649eec503a82953c9b
