@@ -6,15 +6,15 @@
 # Part 2 - A set of constraints that must be honored
 
 # Takeaways: Many real life problems can be formulated into an optimization model
-#            Reduce a new problem with methods of how old problems were solved
-#            Optimization problems are computationally complex and hard
-#            Greedy algorithim to find a "good-enough" solution
+#            = Reduce a new problem with methods of how old problems were solved
+#            = Optimization problems are computationally complex and hard
+#            = Greedy algorithim to find a "good-enough" solution
 
 # Knapsack Problem - you have a backpack with limited space and you want to fit 
 #                    as much valuable items as possible. What will you take?
-
-#     Whole Variant - you cannot take portions of an item, such as a painting
-#     Continuous Variant - you can take portions, such as liquid gold
+#            = Whole Variant - you cannot take portions of an item, such as a 
+#              painting
+#            = Continuous Variant - you can take portions, such as liquid gold
 
 # The whole variant problem is a lot harder than the continuous one.
 

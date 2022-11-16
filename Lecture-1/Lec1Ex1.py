@@ -1,16 +1,16 @@
 # UNIT 1 - Lecture 1: Excercise 1
 
 # As a burgler robs a house, she finds the following items:
-#            Dirt - Weight: 4, Value: 0
-#            Computer - Weight: 10, Value: 30
-#            Fork - Weight: 5, Value: 1
-#            Problem Set - Weight: 0, Value: -10
+#            = Dirt - Weight: 4, Value: 0
+#            = Computer - Weight: 10, Value: 30
+#            = Fork - Weight: 5, Value: 1
+#            = Problem Set - Weight: 0, Value: -10
 
 # This time, she can only carry a weight of 14, and wishes to maximize the value to weight ratio of the things she carries. She employs three different metrics in an attempt to do this, and writes an algorithm in Python to determine which loot to take.
 
 # The algorithm works as follows:
-#            Evaluate the metric of each item. Each metric returns a numerical value for each item.
-#            For each item, from highest metric value to lowest, add the item if there is room in the bag.
+#            = Evaluate the metric of each item. Each metric returns a numerical value for each item.
+#            = For each item, from highest metric value to lowest, add the item if there is room in the bag.
 
 # Describe the heuristic that each of the following 3 metrics uses, and choose the result of running the algorithm with each metric.
 
