@@ -16,7 +16,7 @@ def metric1(item):
 # The algorithm runs and returns a non-optimal solution.
 # The algorithm does not run. [X] Correct.
 
-______________________________________________________________________________
+###############################################################################
 
 # 2. Metric 2:
 def metric2(item):
@@ -34,7 +34,7 @@ def metric2(item):
 # The algorithm runs and returns a non-optimal solution. [X] Correct.
 # The algorithm does not run.
 
-______________________________________________________________________________
+###############################################################################
 
 # 3. Metric 3:
 def metric3(item):
