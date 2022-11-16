@@ -1,4 +1,4 @@
-# THE KNAPSACK PROBLEM - Optimization Models
+# THE KNAPSACK PROBLEM - Optimization Problems, Lecture 1, Segment 1
 
 # Optimization models are great for finding the fastest, biggest, etc. 
 
